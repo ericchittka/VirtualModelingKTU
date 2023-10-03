@@ -1,0 +1,73 @@
+[gd_scene load_steps=11 format=3 uid="uid://dwlcaydvjwf5b"]
+
+[ext_resource type="PackedScene" uid="uid://bxdc7bqyuw7pt" path="res://models/couch table/dlx-_couch_table_wood.glb" id="1_jlpou"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_dalyf"]
+points = PackedVector3Array(53.3333, 46.6667, 2.85714, 51.4286, -0.952381, -2.85714, 51.4286, -0.952381, 2.85714, 59.0476, -0.952381, -2.85714, 59.0476, -0.952381, 2.85714, 59.0476, 46.6667, -2.85714, 53.3333, 46.6667, -2.85714, 59.0476, 46.6667, 2.85714, 51.4286, 4.76228, -2.85714, 51.4286, 4.76228, 2.85714)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_oa3pc"]
+points = PackedVector3Array(3.80952, -0.952381, -2.85714, 51.4286, 4.7619, 2.85714, 51.4286, 4.7619, -2.85714, 3.80952, 4.7619, 2.85714, 51.4286, -0.952381, 2.85714, 51.4286, -0.952381, -2.85714, 3.80952, 4.7619, -2.85714, 3.80952, -0.952381, 2.85714)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_uo7wj"]
+points = PackedVector3Array(3.80412, 4.7619, 4.7619, -51.4286, -0.952381, -2.85714, -51.4286, -0.952381, 2.85714, -51.4286, 4.7619, -2.85714, 3.80412, -0.952381, -2.85714, 3.80412, 4.7619, -2.85714, 3.80412, -0.952381, 4.7619, -51.4286, 4.7619, 2.85714, -3.81978, 4.7619, 4.7619, -3.81978, -0.952381, 4.7619)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_hlj8c"]
+points = PackedVector3Array(-53.3333, 46.6667, 2.85714, -59.0476, -0.952381, -2.85714, -51.4286, -0.952381, -2.85714, -59.0476, -0.952381, 2.85714, -59.0476, 46.6667, -2.85714, -51.4286, -0.952381, 2.85714, -59.0476, 46.6667, 2.85714, -53.3333, 46.6667, -2.85714, -51.4286, 4.76228, -2.85714, -51.4286, 4.76228, 2.85714)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_vinfk"]
+points = PackedVector3Array(3.80952, 46.6667, 39.0465, -3.80952, 6.66667, 33.3345, -3.80952, 6.66667, 39.0465, -3.80952, 46.6667, 33.3345, 3.80952, 6.66667, 33.3345, 3.80952, 6.66667, 39.0465, -3.80952, 46.6667, 39.0465, 3.80952, 46.6667, 33.3345)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_u015t"]
+points = PackedVector3Array(-3.80952, 4.76135, 4.76191, 3.80952, 6.66667, 39.0476, 3.80952, -0.951635, 39.0476, -3.80952, 6.66667, 39.0476, -3.80952, -0.951635, 39.0476, 3.80952, -0.951635, 4.76191, 3.80952, 4.76135, 4.76191, -3.80952, -0.951635, 4.76191, -3.80952, 6.66667, 33.3322, 3.80952, 6.66667, 33.3322)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_0qos8"]
+points = PackedVector3Array(3.80952, 46.6667, -33.3345, -3.80952, 6.66667, -39.0465, -3.80952, 6.66667, -33.3345, -3.80952, 46.6667, -39.0465, 3.80952, 6.66667, -39.0465, 3.80952, 6.66667, -33.3345, -3.80952, 46.6667, -33.3345, 3.80952, 46.6667, -39.0465)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_tmr8y"]
+points = PackedVector3Array(-3.80952, 6.66667, -39.0476, 3.80952, 4.76135, -2.85714, 3.80952, -0.951635, -2.85714, -3.80952, 4.76135, -2.85714, 3.80952, -0.951635, -39.0476, -3.80952, -0.951635, -39.0476, 3.80952, 6.66667, -39.0476, -3.80952, -0.951635, -2.85714, -3.80952, 6.66667, -33.33, 3.80952, 6.66667, -33.33)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_6whme"]
+points = PackedVector3Array(59.0431, 52.3804, 40.9524, -59.0431, 48.5722, -40.9524, -60.9524, 48.5722, -39.0443, 59.0431, 46.6667, 2.85416, 59.0431, 52.3804, -40.9524, -59.0431, 52.3804, 40.9524, -3.80654, 46.6667, 39.0443, -59.0431, 52.3804, -40.9524, 3.80654, 46.6667, -39.0443, -59.0431, 46.6667, 2.85416, 59.0431, 48.5722, -40.9524, 60.9524, 48.5722, 39.0443, -59.0431, 48.5722, 40.9524, 59.0431, 48.5722, 40.9524, -60.9524, 52.3804, 39.0443, 60.9524, 52.3804, -39.0443, 60.9524, 48.5722, -39.0443, -60.9524, 48.5722, 39.0443, -59.0431, 46.6667, -2.85416, 59.0431, 46.6667, -2.85416, -60.9524, 52.3804, -39.0443, 60.9524, 52.3804, 39.0443, -3.80654, 46.6667, -39.0443, 3.80654, 46.6667, 39.0443)
+
+[node name="dlx-_couch_table_wood" instance=ExtResource("1_jlpou")]
+
+[node name="dlX-Couch Table (wood)_table_wood_0" parent="Sketchfab_model/dlX-Couch Table (wood)_fbx/RootNode/dlX-Couch Table (wood)" index="0"]
+transform = Transform3D(1.12, 0, 0, 0, 1.12, 0, 0, 0, 1.12, 0, 0, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Sketchfab_model/dlX-Couch Table (wood)_fbx/RootNode/dlX-Couch Table (wood)/dlX-Couch Table (wood)_table_wood_0" index="0"]
+
+[node name="@CollisionShape3D@149476" type="CollisionShape3D" parent="Sketchfab_model/dlX-Couch Table (wood)_fbx/RootNode/dlX-Couch Table (wood)/dlX-Couch Table (wood)_table_wood_0/StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 2.60708e-24, 0, 2.60708e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_dalyf")
+
+[node name="@CollisionShape3D@149475" type="CollisionShape3D" parent="Sketchfab_model/dlX-Couch Table (wood)_fbx/RootNode/dlX-Couch Table (wood)/dlX-Couch Table (wood)_table_wood_0/StaticBody3D" index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 2.60708e-24, 0, 2.60708e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_oa3pc")
+
+[node name="@CollisionShape3D@149474" type="CollisionShape3D" parent="Sketchfab_model/dlX-Couch Table (wood)_fbx/RootNode/dlX-Couch Table (wood)/dlX-Couch Table (wood)_table_wood_0/StaticBody3D" index="2"]
+transform = Transform3D(1, 0, 0, 0, 1, 2.60708e-24, 0, 2.60708e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_uo7wj")
+
+[node name="@CollisionShape3D@149473" type="CollisionShape3D" parent="Sketchfab_model/dlX-Couch Table (wood)_fbx/RootNode/dlX-Couch Table (wood)/dlX-Couch Table (wood)_table_wood_0/StaticBody3D" index="3"]
+transform = Transform3D(1, 0, 0, 0, 1, 2.60708e-24, 0, 2.60708e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_hlj8c")
+
+[node name="@CollisionShape3D@149472" type="CollisionShape3D" parent="Sketchfab_model/dlX-Couch Table (wood)_fbx/RootNode/dlX-Couch Table (wood)/dlX-Couch Table (wood)_table_wood_0/StaticBody3D" index="4"]
+transform = Transform3D(1, 0, 0, 0, 1, 2.60708e-24, 0, 2.60708e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_vinfk")
+
+[node name="@CollisionShape3D@149471" type="CollisionShape3D" parent="Sketchfab_model/dlX-Couch Table (wood)_fbx/RootNode/dlX-Couch Table (wood)/dlX-Couch Table (wood)_table_wood_0/StaticBody3D" index="5"]
+transform = Transform3D(1, 0, 0, 0, 1, 2.60708e-24, 0, 2.60708e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_u015t")
+
+[node name="@CollisionShape3D@149470" type="CollisionShape3D" parent="Sketchfab_model/dlX-Couch Table (wood)_fbx/RootNode/dlX-Couch Table (wood)/dlX-Couch Table (wood)_table_wood_0/StaticBody3D" index="6"]
+transform = Transform3D(1, 0, 0, 0, 1, 2.60708e-24, 0, 2.60708e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_0qos8")
+
+[node name="@CollisionShape3D@149469" type="CollisionShape3D" parent="Sketchfab_model/dlX-Couch Table (wood)_fbx/RootNode/dlX-Couch Table (wood)/dlX-Couch Table (wood)_table_wood_0/StaticBody3D" index="7"]
+transform = Transform3D(1, 0, 0, 0, 1, 2.60708e-24, 0, 2.60708e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_tmr8y")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Sketchfab_model/dlX-Couch Table (wood)_fbx/RootNode/dlX-Couch Table (wood)/dlX-Couch Table (wood)_table_wood_0/StaticBody3D" index="8"]
+transform = Transform3D(1, 0, 0, 0, 1, 2.60708e-24, 0, 2.60708e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_6whme")

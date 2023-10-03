@@ -1,0 +1,82 @@
+[gd_scene load_steps=13 format=3 uid="uid://c3jgwwwc8i4jw"]
+
+[ext_resource type="PackedScene" uid="uid://cfktthcpabps4" path="res://prefabs/office_chair_modern.tscn" id="1_xux4s"]
+[ext_resource type="PackedScene" uid="uid://vd5dgnx5x83q" path="res://prefabs/office_desk.tscn" id="2_tpl38"]
+[ext_resource type="PackedScene" uid="uid://c6l85h8a0blge" path="res://prefabs/office_bin.tscn" id="3_7jjpn"]
+[ext_resource type="PackedScene" uid="uid://07fqifj8gt3n" path="res://prefabs/office_lamp.tscn" id="4_554mv"]
+[ext_resource type="PackedScene" uid="uid://bwustgprtwkgj" path="res://prefabs/desktop_computer.tscn" id="5_fyfo0"]
+[ext_resource type="PackedScene" uid="uid://cbtxgiwbm0tm2" path="res://prefabs/office_couch.tscn" id="6_5myhf"]
+[ext_resource type="PackedScene" uid="uid://dwlcaydvjwf5b" path="res://prefabs/dlx__couch_table_wood.tscn" id="7_x8psl"]
+[ext_resource type="PackedScene" uid="uid://cw44ucidaujt5" path="res://prefabs/old_shelves.tscn" id="8_uqmef"]
+[ext_resource type="PackedScene" uid="uid://cyfcf0lqdd18q" path="res://prefabs/stand_lamp.tscn" id="9_x8n58"]
+[ext_resource type="PackedScene" uid="uid://cxohv5omjaxlh" path="res://prefabs/indoor_plant.tscn" id="10_0bibg"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pxkqi"]
+size = Vector3(6, 0.05, 6)
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ogekb"]
+margin = 0.5
+radius = 0.25
+
+[node name="Node3D" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.17251, 0.488252, 0.864632)
+
+[node name="Floor" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, -0.000575959, 0, 1, 0, 0.000575959, 0, 1, 0, 0, -0.011374)
+size = Vector3(6, 0.05, 6)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Floor"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Floor/StaticBody3D"]
+shape = SubResource("BoxShape3D_pxkqi")
+
+[node name="Sphere" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.548567, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Sphere"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 2.5, 2.08165e-12)
+shape = SubResource("SphereShape3D_ogekb")
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Sphere"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 2.5, 2.08165e-12)
+radius = 0.25
+radial_segments = 32
+rings = 16
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.979771, 0.20012, 0, -0.20012, 0.979771, -0.144519, 2.01659, 4.25006)
+fov = 98.5526
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.995128, 0.0650903, 0.074046, -0.0984007, 0.70201, 0.705336, -0.00607046, -0.709186, 0.704995, 0.137672, 4.32346, 3.712)
+light_color = Color(0.975236, 0.949637, 0.345846, 1)
+
+[node name="office_chair_modern" parent="." instance=ExtResource("1_xux4s")]
+transform = Transform3D(0.581936, 0, -1.04945, 0, 1.2, 0, 1.04945, 0, 0.581936, -1.16437, 0, 1.69603)
+
+[node name="office_desk" parent="." instance=ExtResource("2_tpl38")]
+transform = Transform3D(-0.0220527, 0, 1.1998, 0, 1.2, 0, -1.1998, 0, -0.0220527, -2.23229, 0.0532736, 1.64377)
+
+[node name="office_bin" parent="." instance=ExtResource("3_7jjpn")]
+transform = Transform3D(0.16, 0, 0, 0, 0.16, 0, 0, 0, 0.16, -2.76485, 0.0250001, 0.932517)
+
+[node name="office_lamp" parent="." instance=ExtResource("4_554mv")]
+transform = Transform3D(0.00823701, 0, 0.00567025, 0, 0.01, 0, -0.00567025, 0, 0.00823701, -2.70717, 1.01569, 2.84243)
+
+[node name="desktop_computer" parent="." instance=ExtResource("5_fyfo0")]
+transform = Transform3D(-0.0231525, 0, 0.749643, 0, 0.75, 0, -0.749643, 0, -0.0231525, -2.62505, 1.21564, 2.06654)
+
+[node name="couch_pbr_free" parent="." instance=ExtResource("6_5myhf")]
+transform = Transform3D(0.018, 0, 0, 0, 0.018, 0, 0, 0, 0.018, 0.738099, 0.0274119, -2.48453)
+
+[node name="dlx-_couch_table_wood" parent="." instance=ExtResource("7_x8psl")]
+transform = Transform3D(1.15, 0, 0, 0, 1.15, 0, 0, 0, 1.15, 0.71544, 0.0250001, -0.863514)
+
+[node name="old_shelves" parent="." instance=ExtResource("8_uqmef")]
+transform = Transform3D(0.035, 0, 0, 0, 0.035, 0, 0, 0, 0.035, -2.91, 0.0336223, -2.92486)
+
+[node name="frances_tripod_floor_lamp_brass" parent="." instance=ExtResource("9_x8n58")]
+transform = Transform3D(0.0113547, 0, -0.00633009, 0, 0.013, 0, 0.00633009, 0, 0.0113547, 2.60943, 0.0250001, -2.28755)
+
+[node name="monstera_deliciosa_potted_mid-century_plant" parent="." instance=ExtResource("10_0bibg")]
+transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, 2.30181, 0.718725, 2.42351)

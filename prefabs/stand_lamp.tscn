@@ -1,0 +1,60 @@
+[gd_scene load_steps=8 format=3 uid="uid://cyfcf0lqdd18q"]
+
+[ext_resource type="PackedScene" uid="uid://btj2i84hf2ofj" path="res://models/stand lamp/frances_tripod_floor_lamp_brass.glb" id="1_0g8uf"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_dwqgr"]
+points = PackedVector3Array(-0.168064, 1.6349, 27.2404, -0.0986295, -1.6214, 26.6158, 0.108623, -1.62061, 26.6157, -0.167383, 0.661115, 24.1987, 1.63954, 0.248352, 27.1731, -1.34609, -0.237142, 28.0022, 0.320403, -0.239777, 28.6506, -0.0983346, -0.719428, 24.2697, -1.62165, -0.0986454, 26.6158, 1.27751, -1.06079, 27.1648, 0.792838, 0.176013, 24.4224, 0.861515, 1.40929, 27.2308, -1.19793, 1.13964, 27.3023, -0.443711, -1.34118, 27.9272, 0.178391, 1.01216, 28.3531, -1.18926, -1.1211, 26.613, -0.717924, 0.108527, 24.2733, 1.28732, 0.247576, 28.0722, -1.12083, 1.13151, 26.409, 1.11963, -1.04152, 26.274, 0.660911, -1.20303, 27.9965, 0.852636, 1.25905, 26.2735, -0.789254, 0.799616, 28.2737, 0.0393203, 1.55093, 26.3405, 0.381479, -0.576428, 24.2189, 1.54158, -0.438459, 26.4766, -0.379201, -0.16948, 28.6461, 1.40937, 0.792849, 26.5455, -0.644505, -0.370969, 24.2884, 0.449617, 0.586536, 24.2885, 1.2906, -0.446315, 28.0072, -1.19666, -1.12808, 27.3014)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_kfs2p"]
+points = PackedVector3Array(0.724847, -1.19681, 25.4556, -12.9537, 8.14609, 20.6182, -0.274817, -15.5439, 20.4512, 13.0687, 7.81216, 20.4512, -0.274817, 1.3053, 25.4556, 12.9026, 7.47824, 21.1189, -0.939528, -1.02985, 25.4556, -0.274817, -15.5439, 20.9518, -13.2886, 7.97913, 20.9518, -13.2886, 7.97913, 20.4512, 1.22078, -0.698242, 25.4556, 13.2375, 7.47824, 20.4512, -1.27188, -0.366637, 25.4556, 13.2375, 7.6452, 20.9518, 0.987316, 0.667761, 25.2941, -0.607172, -1.19681, 25.4556)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_wnnlk"]
+points = PackedVector3Array(-16.5579, -8.55793, -57.1495, 17.3215, -9.10517, -61.5167, 17.3215, -9.10517, -62.6169, 0.380118, 19.8572, -61.5167, 2.56393, 1.27763, 23.1817, -2.34965, -1.45562, 23.1817, -16.012, -10.1996, -59.3331, -2.34965, 1.27763, 23.1817, 0.926072, -2.54715, 23.1817, -17.1072, -8.55793, -62.6169, -0.711789, 19.31, -62.6169, 16.3817, -9.84753, -61.6118, 0.926072, 19.31, -59.879, -0.711789, 18.2155, -53.8657, 1.47203, 2.3721, 23.1817, -17.1072, -8.55793, -60.4249, 2.56393, -0.908378, 23.1817, -1.25774, 2.3721, 23.1817, -1.25774, -2.54715, 23.1817, 16.7722, -8.55793, -58.7872, 2.01798, -1.99991, 23.1817, 0.926072, 19.31, -62.6169, -16.4933, -9.66364, -61.0869)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_3umtf"]
+points = PackedVector3Array(14.7083, 4.82349, 38.4016, -15.1296, -2.87776, 20.5929, -14.6497, -4.80007, 20.5914, -14.6856, -4.81183, 38.3743, 5.0115, -14.8436, 20.6139, 2.6299, 15.3826, 20.5797, -7.93185, 13.4439, 38.3547, -3.13797, -15.3954, 38.3715, 15.1328, 2.88251, 20.5779, 12.2382, -9.60922, 38.3609, -13.1679, 8.12975, 20.6204, 7.91264, 13.4543, 38.3615, -8.84082, -12.8848, 20.6426, -14.7093, 4.81951, 38.3886, 14.1405, -6.23444, 20.596, 11.7516, 10.0851, 20.5879, -6.01004, 14.3961, 20.5938, -2.6627, 15.4262, 38.3894, 6.98827, -14.0076, 38.4071, -11.8096, -10.1132, 38.3806, 15.1645, -2.88866, 38.3846, -3.13068, -15.3595, 20.5932, 9.33931, -12.4721, 20.598, 3.11337, -15.3989, 38.3735, -15.1418, 2.87696, 20.5858, -11.793, 10.0989, 38.3681, 11.7829, 10.1119, 38.3796, 2.63828, 15.4315, 38.3924, -7.01049, -14.0014, 38.4032, 6.9484, 13.9277, 20.5876, -9.34171, 12.4414, 20.6197, -13.1854, -8.14367, 20.6086)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_dqgja"]
+points = PackedVector3Array(0.122274, 0.282167, 20.158, -0.0715301, -0.365611, 19.2039, -0.177442, -0.348923, 19.1829, 0.0785054, 0.385008, 19.1658, -0.293981, 0.0887571, 20.1551, 0.247368, -0.181297, 20.1507, 0.385808, 0.0435691, 19.2169, -0.331055, 0.214176, 19.1317, -0.133772, -0.278089, 20.1538, -0.365192, -0.127037, 19.4901, 0.190672, -0.237296, 19.1177, -0.0867937, 0.298494, 20.1584, 0.249187, -0.297719, 19.5754, 0.31746, 0.231244, 19.5413, 0.297552, 0.0887864, 20.1553, -0.228646, 0.316585, 19.4901, -0.331055, -0.212378, 19.1487, 0.0902328, -0.296579, 20.1582, 0.385808, -0.0758328, 19.5753, 0.31746, -0.229446, 19.217, 0.0614373, -0.383135, 19.5583, 0.240319, 0.190077, 19.1169, -0.297794, -0.0880881, 20.1617, -0.313987, -0.246514, 19.5071, -0.382335, 0.0776303, 19.4901, 0.0785054, 0.385008, 19.5071, -0.126237, 0.367789, 19.1487, 0.232119, 0.316585, 19.1829, 0.232119, -0.314787, 19.217, -0.0750328, -0.383135, 19.5413, -0.382335, 0.0776303, 19.1317, -0.260403, 0.167669, 20.152)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ypvhj"]
+points = PackedVector3Array(-169.68, -169.68, -2.65125, 169.68, 169.68, 2.65125, 169.68, 169.68, -2.65125, -169.68, 169.68, 2.65125, 169.68, -169.68, 2.65125, 169.68, -169.68, -2.65125, -169.68, 169.68, -2.65125, -169.68, -169.68, 2.65125)
+
+[node name="frances_tripod_floor_lamp_brass" instance=ExtResource("1_0g8uf")]
+transform = Transform3D(0.03, 0, 0, 0, 0.03, 0, 0, 0, 0.03, 0, 0, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Sketchfab_model/Collada visual scene group/Frances_Tripod_Floor_Lamp_Copper/LIGHT_BULB" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Sketchfab_model/Collada visual scene group/Frances_Tripod_Floor_Lamp_Copper/LIGHT_BULB/StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, -3.59998e-24, 0, -3.59998e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_dwqgr")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Sketchfab_model/Collada visual scene group/Frances_Tripod_Floor_Lamp_Copper/METAL_WHITE" index="0"]
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="Sketchfab_model/Collada visual scene group/Frances_Tripod_Floor_Lamp_Copper/METAL_WHITE/StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, -3.59998e-24, 0, -3.59998e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_kfs2p")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Sketchfab_model/Collada visual scene group/Frances_Tripod_Floor_Lamp_Copper/COPPER" index="0"]
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="Sketchfab_model/Collada visual scene group/Frances_Tripod_Floor_Lamp_Copper/COPPER/StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 1.93714e-25, 0, 1.93714e-25, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_wnnlk")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Sketchfab_model/Collada visual scene group/Frances_Tripod_Floor_Lamp_Copper/LAMP_SHADE" index="0"]
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="Sketchfab_model/Collada visual scene group/Frances_Tripod_Floor_Lamp_Copper/LAMP_SHADE/StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, -3.59998e-24, 0, -3.59998e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_3umtf")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Sketchfab_model/Collada visual scene group/Frances_Tripod_Floor_Lamp_Copper/STEEL" index="0"]
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="Sketchfab_model/Collada visual scene group/Frances_Tripod_Floor_Lamp_Copper/STEEL/StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, -3.59998e-24, 0, -3.59998e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_dqgja")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Sketchfab_model/Collada visual scene group/Plane001/FLOOR" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Sketchfab_model/Collada visual scene group/Plane001/FLOOR/StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, -2.57639e-23, 0, -1.19776e-23, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_ypvhj")

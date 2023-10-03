@@ -1,0 +1,42 @@
+[gd_scene load_steps=6 format=3 uid="uid://cxohv5omjaxlh"]
+
+[ext_resource type="PackedScene" uid="uid://g6ry035w4cis" path="res://models/indoor plant/monstera_deliciosa_potted_mid-century_plant.glb" id="1_ay1bk"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_8iekl"]
+points = PackedVector3Array(39.8405, 65.9876, 13.2248, -22.2797, 39.7775, -11.6121, 16.3679, 16.3173, 24.2776, -11.2326, 23.2179, -32.3215, 6.70603, 81.1724, -24.0333, 17.7462, 13.5588, -14.3711, -20.8945, 90.8487, -11.6121, -7.0908, 5.27466, 6.32167, 30.1717, 74.2718, 17.3745, -30.5633, 63.2291, 3.56263, -1.57069, 39.7775, 20.128, 1.19281, 2.50751, -4.70896, -4.33419, 77.0303, 7.70119, 10.8478, 59.0871, 20.128, 19.1314, 16.3173, 24.2776, 39.8405, 63.2291, 10.4658, -16.7527, 23.2179, 6.32167, -12.604, 23.2179, -32.3215, 10.8478, 45.3032, -21.2743, 32.9352, 74.2718, 14.6043, 12.2192, 6.64959, -0.581473, 3.95631, 81.1724, -24.0333, -19.5162, 90.8487, -10.2326, -18.7596, 49.3418, 11.3483, 1.19281, 3.89109, 4.94215, -30.5633, 63.2291, 2.18311, 39.8405, 61.8456, 11.8453, -16.2049, 23.8187, 7.40098, 39.8405, 65.9876, 10.4658, -8.46911, 6.64959, 3.56263, -1.57069, 2.50751, -4.70896, -30.5633, 60.4706, 3.56263)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_v7nm5"]
+points = PackedVector3Array(-29.1673, 42.4488, -13.881, -29.0937, 42.3282, -16.8981, -39.9516, -33.9188, -8.07883, -6.38709, -22.7209, 46.263, 41.5564, 20.4183, 38.2587, 17.5847, 7.63255, -44.8421, -46.34, 41.1986, 4.68987, -22.3583, -38.71, -40.0505, 19.1868, -49.9079, 35.0643, 22.381, -45.1075, -11.2733, -49.5343, 38.0045, -22.4629, -39.9516, -27.5213, 28.6663, 49.557, 18.8212, 20.6802, -9.11639, 13.0448, 37.5316, 15.049, 25.2449, -30.3573, -11.1834, 4.42919, -46.4484, -6.38709, -46.7046, -32.0553, -49.5343, 6.02626, 11.0788, -33.5631, -22.7209, 36.6706, 44.7507, 1.23506, 11.0878, 12.7783, 33.2041, -9.67605, -30.7185, 40.9323, -26.1521, -35.1552, -0.362002, -36.856, 3.19561, -41.9041, -33.6525, 33.5658, 22.0154, -14.4677, -43.1458, -29.1184, -6.4816, 30.3716, -35.5159, 17.4858, 47.9549, 15.6179, 33.4671, 39.9543, 23.6124, 31.8608, -52.7385, 38.0045, -16.074, -28.7567, -37.113, -36.856, -46.34, 7.62332, 19.0739)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_x5i8r"]
+points = PackedVector3Array(-1.98179, -63.4008, -29.6944, 1.12562, 2.35955, 13.4778, -0.871395, 2.66224, 13.6765, -1.98179, 4.34823, -29.6944, 21.2585, -61.7098, -8.46067, -22.1091, -63.4008, -9.57144, -0.871395, -61.7148, 13.6765, -22.1091, 4.34823, -9.57144, 21.2585, 2.65723, -8.46067, -21.0569, 2.74544, -6.45178, 1.13751, -61.793, -28.6389, 21.0661, -61.4168, -6.46364, -21.0569, -61.798, -6.45178, 1.13751, 2.74042, -28.6389, 21.0661, 2.36423, -6.46364, 1.12562, -61.4122, 13.4778)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_muehy"]
+points = PackedVector3Array(16.0738, -5.37256, 1.67596, -16.3645, -4.35106, -0.376179, -16.3383, -4.34773, 0.646495, 16.224, 14.3151, 3.76945, 2.7232, 14.2788, -16.4318, -7.07205, 14.1857, 15.0646, 2.67952, -18.6046, 7.77595, 0.645001, -15.0805, -12.1443, -13.1957, 14.1205, -10.1186, 2.70838, -7.4401, 15.5855, 12.86, -7.88734, -9.02849, -11.059, -13.9905, 6.74297, -8.5347, -9.42758, -12.6138, 8.91639, 14.2356, 14.0788, -15.4365, 14.3249, 6.36529, 13.9829, 14.124, -9.09578, -9.08711, -17.661, -3.96136, 8.8911, -18.2533, -1.40798, 11.3608, -7.9019, 10.8477, -9.02973, -7.88812, 12.8586, 6.29578, -3.31661, -15.2724, -2.9526, -2.2901, -16.3505, -13.6328, -3.30905, 9.30795, -14.1531, -7.392, -7.00684, -6.56853, 14.2134, -15.3338, -16.4082, 14.2548, -2.96266, -3.43999, -17.6175, 9.32861, 3.20409, -18.6797, -7.54738, 3.76646, 14.316, 16.2249, -3.45982, -3.82942, 16.0707, 12.9613, -13.5752, 2.69732, 16.0405, -2.80118, -3.96935)
+
+[node name="monstera_deliciosa_potted_mid-century_plant" instance=ExtResource("1_ay1bk")]
+transform = Transform3D(1.3, 0, 0, 0, 1.3, 0, 0, 0, 1.3, 2.08165e-12, 0.7, 2.08165e-12)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Sketchfab_model/c870c74b3ba344c9b545b3405382bcef_fbx/RootNode/root_HP_1/root_HP_1_Mat_2_0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Sketchfab_model/c870c74b3ba344c9b545b3405382bcef_fbx/RootNode/root_HP_1/root_HP_1_Mat_2_0/StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, -1.38295e-24, 0, -1.38295e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_8iekl")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Sketchfab_model/c870c74b3ba344c9b545b3405382bcef_fbx/RootNode/Leaves/Leaves_Mat_1_0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Sketchfab_model/c870c74b3ba344c9b545b3405382bcef_fbx/RootNode/Leaves/Leaves_Mat_1_0/StaticBody3D" index="0"]
+transform = Transform3D(1, 7.67687e-41, 3.45738e-25, 7.67687e-41, 1, -1.38295e-24, 3.45738e-25, -1.38295e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_v7nm5")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Sketchfab_model/c870c74b3ba344c9b545b3405382bcef_fbx/RootNode/Stand/Stand_Mat_0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Sketchfab_model/c870c74b3ba344c9b545b3405382bcef_fbx/RootNode/Stand/Stand_Mat_0/StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, -1.38295e-24, 0, -1.38295e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_x5i8r")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Sketchfab_model/c870c74b3ba344c9b545b3405382bcef_fbx/RootNode/Pot_LP/Pot_LP_Mat_0" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Sketchfab_model/c870c74b3ba344c9b545b3405382bcef_fbx/RootNode/Pot_LP/Pot_LP_Mat_0/StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, -1.38295e-24, 0, -1.38295e-24, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_muehy")
