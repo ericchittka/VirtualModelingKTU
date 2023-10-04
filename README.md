@@ -1,7 +1,22 @@
 # VirtualModelingKTU
  Repository of the Virtual Modeling course
 
- ## Lab1
+## Lab1
+ ### 3D Home Office Scene - Godot Learning Project
+
+This repository contains a simple 3D scene created in Godot, which represents a home office environment. The purpose of this project is to serve as a learning exercise for creating 3D scenes in Godot Engine.
+
+### Project Overview
+
+In this project, a a basic home office scene within a single room was created. The room consists of a desk, chair, computer, monitor, keyboard, mouse, and some decorative elements to give it a home office feel.
+
+The project covers the following aspects:
+
+- Importing 3D models into Godot.
+- Applying textures and materials to the models.
+- Setting up collision shapes for the objects.
+- Basic scene setup and organization.
+
  **Used Models**
  - Indoor Plant: https://sketchfab.com/3d-models/monstera-deliciosa-potted-mid-century-plant-1ab9bf841df04c07b1819be596327629
  - Office Chair: https://sketchfab.com/3d-models/office-chair-modern-675f34f7304e4d92812a41e9750539aa
